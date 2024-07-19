@@ -1,0 +1,53 @@
+.add-node-popover-body {
+    max-width: 336px;
+    .add-node-popover-item {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+        color: #191F25 !important;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        width: 160px;
+        background: rgba(17, 31, 44, 0.02);
+        padding: 8px;
+        border: 1px solid #FFFFFF;
+        border-radius: 4px;
+        .iconfont {
+            font-size: 20px;
+            line-height: 40px;
+        }
+        .item-wrapper {
+            user-select: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: #FFFFFF;
+            border: 1px solid #eeeeee;
+            border-radius: 16px;
+            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+            margin-right: 12px;
+        }
+        &:hover{
+                background: #FFFFFF;
+                border: 1px solid #ecedef;
+                box-shadow: 0 2px 8px 0 rgba(17, 31, 44, 0.08);
+        }
+    }
+    .add-node-popover-item.approver {
+        .item-wrapper {
+            color: #FF943E;
+        }
+    }
+    .add-node-popover-item.notifier {
+        .item-wrapper {
+            color: #3296FA;
+        }
+    }
+    .add-node-popover-item.route {
+        .item-wrapper {
+            color: #15BC83;
+        }
+    }
+}

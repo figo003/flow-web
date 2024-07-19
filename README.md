@@ -14,6 +14,9 @@ Vue2 + ElementUI + Axios   flowable 仿钉钉自定义流程，web组件
 2.支持审批流程的新建,编辑,回退,驳回,拒绝,加签等功能<br/>
 3.支持审批历史展示, 并且可以通过前端插槽slot方式去自定义审批历史的展示<br/>
 
+# 后端地址
+https://github.com/figo003/flowpath.git
+
 
 ## 使用环境
 Vue2 + ElementUI + Axios 
@@ -94,3 +97,9 @@ data() {
     };
   },
 ```
+
+
+# 交流群~~秋秋：
+993911824<br>
+开源不易，感谢支持一杯咖啡,您的支持才是我前进的动力 <br>
+<img src='zhifubao.png'/>
